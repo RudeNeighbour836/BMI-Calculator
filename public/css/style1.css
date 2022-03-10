@@ -1,0 +1,44 @@
+body {
+  padding-top: 4cm;
+}
+.calc {
+  padding-left: 1cm;
+  background-color: beige;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-top: 2em;
+}
+form {
+  padding-top: 4cm;
+  padding-bottom: 4cm;
+  background-color: beige;
+  padding: 2em;
+  height: 16em;
+  margin: auto;
+}
+form label {
+  display: block;
+  margin: 0px 0px 15px 0px;
+}
+form label > span {
+  width: 25%;
+  float: left;
+  padding-left: 5%;
+}
+form input[type="text"] {
+  width: 60%;
+}
+form input[type="button"] {
+  float: right;
+  margin-right: 9%;
+  height: 2.2em;
+}
+div {
+  border: 1px black solid;
+  width: 31em;
+  margin: auto;
+}
