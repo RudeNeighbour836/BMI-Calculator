@@ -7,10 +7,9 @@ body {
 }
 h1 {
   font-family: Arial, Helvetica, sans-serif;
-}
-h1 {
   text-align: center;
   margin-top: 2em;
+  color: red;
 }
 form {
   padding-top: 4cm;
@@ -41,4 +40,7 @@ div {
   border: 1px black solid;
   width: 31em;
   margin: auto;
+}
+form input[type="button"] {
+  color: blue;
 }
