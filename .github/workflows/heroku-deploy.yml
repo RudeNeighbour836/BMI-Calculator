@@ -15,7 +15,7 @@ jobs:
       - uses: akhileshns/heroku-deployv@3.12.12
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "c-bmi-app"
-          heroku_email: "mwangycaesar@gmail.com"
+          heroku_app_name: c-bmi-app
+          heroku_email: mwangycaesar@gmail.com
 
 
